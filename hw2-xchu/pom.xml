@@ -75,4 +75,8 @@
 			<version>2.4.0</version>
 		</dependency>
 	</dependencies>
+	<scm>
+		<connection>scm:git:git@github.com:chuxiaowen/hw2-xchu.git</connection>
+		<developerConnection>scm:git:git@github.com:chuxiaowen/hw2-xchu.git</developerConnection>
+	</scm>
 </project>
