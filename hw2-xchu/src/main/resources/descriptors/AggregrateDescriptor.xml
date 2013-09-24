@@ -16,14 +16,14 @@
     <delegateAnalysisEngine key="TokenTriGramAnnotatorDescriptor">
       <import location="/home/cxw/git/hw2-xchu/hw2-xchu/src/main/resources/descriptors/TokenTriGramAnnotatorDescriptor.xml"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="NGramOverlapScoreAnnotatorDescriptor">
-      <import location="/home/cxw/git/hw2-xchu/hw2-xchu/src/main/resources/descriptors/NGramOverlapScoreAnnotatorDescriptor.xml"/>
-    </delegateAnalysisEngine>
-  <delegateAnalysisEngine key="EvaluatorDescriptor">
+    <delegateAnalysisEngine key="EvaluatorDescriptor">
       <import location="/home/cxw/git/hw2-xchu/hw2-xchu/src/main/resources/descriptors/EvaluatorDescriptor.xml"/>
     </delegateAnalysisEngine>
   <delegateAnalysisEngine key="TestElementAnnotatorDescriptor">
       <import location="/home/cxw/git/hw2-xchu/hw2-xchu/src/main/resources/descriptors/TestElementAnnotatorDescriptor.xml"/>
+    </delegateAnalysisEngine>
+  <delegateAnalysisEngine key="NGramOverlapScoreAnnotatorDescriptor">
+      <import location="/home/cxw/git/hw2-xchu/hw2-xchu/src/main/resources/descriptors/NGramOverlapScoreAnnotatorDescriptor.xml"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
