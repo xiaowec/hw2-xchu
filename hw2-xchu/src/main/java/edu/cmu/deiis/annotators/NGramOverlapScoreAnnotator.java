@@ -14,7 +14,6 @@ import edu.cmu.deiis.types.Answer;
 import edu.cmu.deiis.types.AnswerScore;
 import edu.cmu.deiis.types.NGram;
 import edu.cmu.deiis.types.Question;
-import edu.cmu.deiis.types.Token;
 
 /**
  * NGramOverlapScoreAnnotator will give each answer a score based on
@@ -115,6 +114,9 @@ public class NGramOverlapScoreAnnotator extends JCasAnnotator_ImplBase {
       score.addToIndexes();
     }
 
+  }
+
+  public NGramOverlapScoreAnnotator() {
   }
 
 }
